@@ -12,7 +12,7 @@ body, html {
     position: relative;
     left: 100%;
     margin-left: -250%;
-    filter: brightness(60%);
+    filter: brightness(50%);
     
 }
 
@@ -26,7 +26,7 @@ body, html {
 .main-heading {
     z-index: 10;
     position: absolute;
-    top: 23%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size:  50px;
@@ -36,13 +36,15 @@ body, html {
     margin-top: 0px;
     margin-bottom: 0px;
     transition: all 0.5s ease-in-out;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: 2px;
     
 }
 
 .main-text {
     z-index: 10;
     position: absolute;
-    top: 36%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
@@ -50,14 +52,14 @@ body, html {
     padding-top: 20px;
     font-size: 16px;
     transition: all 0.5s ease-in-out;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: 1px;
 }
 
 .main-button {
     z-index: 10;
-    position: absolute;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
+    position: absolute;
     color: aliceblue;
     background: none;
     border: 1px solid rgba(221, 221, 221, 0.849);
@@ -69,6 +71,8 @@ body, html {
     transition: all 0.5s ease-in-out;
     width:127px;
     cursor: pointer;
+    text-shadow: 8px 8px 5px black;
+    letter-spacing: 1px;
 }
 
 .main-button-container {
@@ -76,20 +80,23 @@ body, html {
   transition: all 0.5s;
   box-sizing: border-box;
   left: 50%;
-  top: 50%;
+  top: 68%;
   padding: 0px;
   margin: 0px;
+  text-shadow: 8px 8px 5px black;
 }
 .main-button-container:hover {
   transform: scale(1.2);
-  text-shadow: 2px 2px 5px black;
 }
 
 .logo {
   cursor: pointer;
   transition: 0.5s;
   font-size: 32px;
-  font-weight: 600
+  font-weight: 600;
+  display: flex;
+  width:50px;
+  height: 50px;
 }
 
 .logo:hover {
@@ -107,11 +114,11 @@ body, html {
             font-size: 60px;
         }
         .main-text {
-            top: 31.5%;
+            top: 40%;
         }
 
         .main-button-container {
-            top: 42%
+            top: 53%
         }
         
     }
@@ -144,36 +151,39 @@ body, html {
 
       .main-text {
           font-size: 25px;
-          top: 33%;
+          top: 43%;
       }
 
       .main-heading {
         font-size: 90px;
+        top: 35%;
       }
 
       .main-button-container {
         transform: scale(1.3);
-        top: 48%;
+        top: 58%;
       }
 
       .main-button-container:hover {
         transform: scale(1.5);
         text-shadow: 2px 2px 5px black;
     }
+  }
 
-
+   /* iphone SE setting*/
 
     @media(max-width: 390px) and (max-height: 675px) {
         .main-heading {
-            top: 25%
+            top: 30%;
         }
 
         .main-text {
-          top: 38%;
+          top: 50%;
+          font-size: 14px;
         }
 
         .main-button-container {
-          top: 52%
+          top: 70%;
         }
 
     }
@@ -192,7 +202,7 @@ body, html {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #FFF;
     height: 50px;
-    padding: 1em 2em;
+    padding: 1em 1.5em;
     position: absolute;
     top: 0%;
     left: 0;
@@ -328,5 +338,5 @@ body, html {
     }
   }
 
-}
+
   
