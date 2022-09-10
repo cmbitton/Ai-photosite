@@ -302,6 +302,7 @@ body, html {
 /* CSS for Gallery */
 .gallery-body {
   background-color: #222;
+  font-family: 'Raleway', sans-serif;
 }
 .gallery-heading {
   z-index: 10;
@@ -315,7 +316,6 @@ body, html {
   padding-bottom: 20px;
   margin-top: 0px;
   margin-bottom: 0px;
-  transition: all 0.5s ease-in-out;
   text-shadow: 5px 5px 5px black;
   letter-spacing: 2px;
   text-align: center;
@@ -356,7 +356,7 @@ body, html {
  }
   .gallery-heading {
       top: 17%;
-      font-size: 70px;
+      
       letter-spacing: 4px;
  }
   .gallery-container {
@@ -385,4 +385,72 @@ body, html {
 /* CSS for Collections */
 .collections-body {
   background-color: #222;
+  font-family: 'Raleway', sans-serif;
+}
+
+.collections-heading {
+  z-index: 10;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.836);
+  width: 80%;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-shadow: 5px 5px 5px black;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.collections-text {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255);
+  color: black;
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 25px;
+  box-sizing: border-box;
+  font-size: 24px;
+  letter-spacing: 2px;
+  opacity: 100;
+}
+
+.collections-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.collections-container {
+  position: absolute;
+  top: 30%;
+}
+
+.image-card-collections:hover {
+  transform: scale(1.05);
+  transition: .5s ease;
+  opacity: 100;
+  cursor: pointer;
+}
+
+.image-card-collections {
+  opacity: 0.7;
+}
+
+@media(min-width: 700px) {
+  .collections-text {
+    width: 100%;
+ }
+ .collections-photos{
+  gap:100px;
+ }
 }
