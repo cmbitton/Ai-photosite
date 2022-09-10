@@ -444,7 +444,6 @@ body, html {
 }
 
 .image-card-collections {
-  opacity: 0.8;
   width: 100%;
 }
 
@@ -474,7 +473,8 @@ body, html {
 
 @media(min-width: 1024px) {
   .image-card-collections {
-      max-width: 21%;
+    max-width: 21%;
+    opacity: 0.8;
  }
   .collections-heading {
       top: 17%;
