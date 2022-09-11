@@ -1,72 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
-    <link rel="stylesheet" href="./styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collections</title>
+  <link rel="stylesheet" href="./styles.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 </head>
-<body class="collections-body">
-    <section class="top-nav">
-        <a href="./index.html">
-          <div class="logo">
-            <img src="./MidJourneyImages/logo_photo.png">
-          </div>
-        </a>
-        <input id="menu-toggle" type="checkbox" />
-        <label class='menu-button-container' for="menu-toggle">
-          <div class='menu-button'></div>
-        </label>
-        <ul class="menu">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./gallery.html">Gallery</a></li>
-          <li><a href="./collections.html">Collections</a></li>
-          <li>About</li>
-        </ul>
-      </section>
-      <h1 class="collections-heading">Collections</h1>
 
-      <div class="collections-container">
-        <div class="collections-photos">
-          <div class="image-card image-card-collections">
+<body class="collections-body">
+  <section class="top-nav">
+    <a href="./index.html">
+      <div class="logo">
+        <img src="./MidJourneyImages/logo_photo.png">
+      </div>
+    </a>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+      <div class='menu-button'></div>
+    </label>
+    <ul class="menu">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./gallery.html">Gallery</a></li>
+      <li><a href="./collections.html">Collections</a></li>
+      <li>About</li>
+    </ul>
+  </section>
+  <h1 class="collections-heading">Collections</h1>
+
+  <div class="collections-container">
+    <div class="collections-photos">
+        <div class="image-card image-card-collections">
+          <a class="collections-link" href="./collections_pages/animals.html">
             <img class="photo" src="./collections_cover_images/tiger_forest.png" class="photo">
             <p class="collections-text">Animals</p>
-          </div>
-          <div class="image-card image-card-collections">
-            <img class="photo" src="./collections_cover_images/walter_white.png">
-            <p class="collections-text">Movie/TV Characters</p>
-          </div>
-          <div class="image-card image-card-collections">
-            <img class="photo" src="./MidJourneyImages/thcthrowaway314_a_group_of_people_gathered_around_a_fire_in_the_5d6d6aab-f563-4834-807d-2ef86128b8a3.png.png">
-            <p class="collections-text">Digital Art</p>
-          </div>
-          <div class="image-card image-card-collections">
-            <img class="photo" src="./collections_cover_images/marilyn_monroe.png">
-            <p class="collections-text">Celebrities</p>
-          </div>
-          <div class="image-card image-card-collections">
-            <img class="photo" src="./collections_cover_images/ring.png">
-            <p class="collections-text">Photorealistic</p>
-          </div>
-          <div class="image-card image-card-collections">
-            <img class="photo" src="./collections_cover_images/thcthrowaway314_Florida_beautiful_photograph_extremely_detailed_e853a28a-a7f4-48dc-90f7-71e320d8c981.png">
-            <p class="collections-text">Landscape</p>
-          </div>
-          <div class="image-card image-card-collections">
-            <img class="photo" src="./collections_cover_images/Oprah Winfrey as a bodybuilder, extremely muscular (5).png">
-            <p class="collections-text">Memes</p>
-          </div>
-          <div class="image-card image-card-collections">
-            <img class="photo" src="./collections_cover_images/00263-3087520712-A_painting_by_Ellsworth_Kelly,_trending_on_artstation,_highly_detailed,_ultra_quality.png">
-            <p class="collections-text">Misc</p>
-          </div>
+          </a>
         </div>
+      <div class="image-card image-card-collections">
+        <a class="collections-link" href="./collections_pages/movie-tv.html">
+          <img class="photo" src="./collections_cover_images/walter_white.png">
+          <p class="collections-text">Movie/TV Characters</p>
+        </a>
       </div>
-    
+      <div class="image-card image-card-collections">
+        <a class="collections-link" href="./collections_pages/digital-art.html">
+          <img class="photo"
+            src="./MidJourneyImages/thcthrowaway314_a_group_of_people_gathered_around_a_fire_in_the_5d6d6aab-f563-4834-807d-2ef86128b8a3.png.png">
+          <p class="collections-text">Digital Art</p>
+        </a>
+      </div>
+      <div class="image-card image-card-collections">
+        <a class="collections-link" href="./collections_pages/celebrities.html">
+          <img class="photo" src="./collections_cover_images/marilyn_monroe.png">
+          <p class="collections-text">Celebrities</p>
+        </a>
+      </div>
+      <div class="image-card image-card-collections">
+        <a class="collections-link" href="./collections_pages/photorealistic.html">
+          <img class="photo" src="./collections_cover_images/ring.png">
+          <p class="collections-text">Photorealistic</p>
+        </a>
+      </div>
+      <div class="image-card image-card-collections">
+        <a class="collections-link" href="./collections_pages/landscape.html">
+          <img class="photo"
+            src="./collections_cover_images/thcthrowaway314_Florida_beautiful_photograph_extremely_detailed_e853a28a-a7f4-48dc-90f7-71e320d8c981.png">
+          <p class="collections-text">Landscape</p>
+        </a>
+      </div>
+      <div class="image-card image-card-collections">
+        <a class="collections-link" href="./collections_pages/memes.html">
+          <img class="photo" src="./collections_cover_images/Oprah Winfrey as a bodybuilder, extremely muscular (5).png">
+          <p class="collections-text">Memes</p>
+        </a>
+      </div>
+      <div class="image-card image-card-collections">
+        <a class="collections-link" href="./collections_pages/misc.html">
+          <img class="photo"
+            src="./collections_cover_images/00263-3087520712-A_painting_by_Ellsworth_Kelly,_trending_on_artstation,_highly_detailed,_ultra_quality.png">
+          <p class="collections-text">Misc</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
 </body>
+
 </html>
