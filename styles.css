@@ -335,18 +335,6 @@ body, html {
   opacity: 100;
 }
 
-.collections-photos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 50px;
-}
-
-.collections-container {
-  position: absolute;
-  top: 30%;
-}
-
 .image-card:hover {
   transform: scale(1.05);
   transition: .5s ease;
@@ -366,42 +354,6 @@ body, html {
   width: 100%;
 }
 
-
-@media(min-width: 700px) {
- .collections-photos{
-  gap:50px;
- }
- .image-card {
-  max-width: 40%;
- }
-
-.collections-container {
-  top: 27% 
-}
-
-.collections-text {
-  width: 100%;
-}
-
-.photo {
-  width: 100%;
-}
-
-
-@media(min-width: 1024px) {
-  .image-card {
-    max-width: 21%;
-    opacity: 0.8;
- }
-
-  .collections-container {
-      top: 27% 
- }
- .collections-text{
-  height: 75px;
- }
-}
-}
 
 /*Css for individual collections pages */
 .animals-collection-body {
