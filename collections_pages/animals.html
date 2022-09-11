@@ -5,13 +5,43 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Animals</title>
-        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="../styles.css">
     
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="../script.js" defer></script>
     </head>
-<body>
+<body class="animals-collection-body" onload="getPics()">
+    <section class="top-nav">
+        <a href="../index.html">
+          <div class="logo">
+            <img src="../MidJourneyImages/logo_photo.png">
+          </div>
+        </a>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+          <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../gallery.html">Gallery</a></li>
+          <li><a href="../collections.html">Collections</a></li>
+          <li>About</li>
+        </ul>
+    </section>
+    
+    <h1 class="gallery-heading">Animals</h1>
+
+    <div class="gallery-container">
+        <div class="gallery-photos">
+          <div class="image-card">
+            <img class="photo" src="../MidJourneyImages/thcthrowaway314_steve_jobs_as_an_apple_1ab41631-8b00-4ba9-80db-1166b1958f72.png.png" class="photo">
+            <p class="gallery-photo-text">"Steve Jobs as an apple"</p>
+          </div>
+        </div>
+    </div>
+    <div id="fullpage" onclick="this.style.display='none';"></div>
     
 </body>
 </html>

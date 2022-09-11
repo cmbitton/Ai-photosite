@@ -10,8 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="./script.js" defer></script>
 </head>
-<body class="gallery-body">
+<body class="gallery-body" onload="getPics()">
     <section class="top-nav">
         <a href="./index.html">
           <div class="logo">
@@ -71,6 +72,6 @@
         </div>
       </div>
     </div>
-    
+    <div id="fullpage" onclick="this.style.display='none';"></div>
 </body>
 </html>

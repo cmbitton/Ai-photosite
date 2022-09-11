@@ -305,7 +305,7 @@ body, html {
   font-family: 'Raleway', sans-serif;
 }
 .gallery-heading {
-  z-index: 10;
+  z-index: 0;
   position: absolute;
   top: 20%;
   left: 50%;
@@ -496,4 +496,25 @@ body, html {
   height: 75px;
  }
 }
+}
+
+/*Css for individual collections pages */
+.animals-collection-body {
+  background-color: #222;
+  font-family: 'Raleway', sans-serif;
+}
+
+#fullpage {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-color: black;
 }
