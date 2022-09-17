@@ -286,7 +286,7 @@ body, html {
 .gridbutton2x2 {
   position: absolute;
   display: none;
-  left: 29%;
+  right: 8%;
   top: 14.2%;
   width: 60px;
   height: 60px;
