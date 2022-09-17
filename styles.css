@@ -285,11 +285,13 @@ body, html {
 }
 .gridbutton2x2 {
   position: absolute;
+  display: none;
   left: 10%;
   top: 15%;
   width: 60px;
   height: 60px;
   z-index: 1;
+  opacity: 80%;
 
 }
 .gridbutton2x2:hover{
@@ -321,6 +323,9 @@ body, html {
  }
  #image-card-2x2grid {
   max-width: 45%;
+ }
+ .gridbutton2x2{
+  display: block;
  }
   .gallery-heading {
       top: 17%;
