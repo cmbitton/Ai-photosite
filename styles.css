@@ -283,6 +283,19 @@ body, html {
   flex-direction: column;
   align-items: center;
 }
+.gridbutton2x2 {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+
+}
+.gridbutton2x2:hover{
+  cursor: pointer;
+}
+
 @media(min-width: 700px) {
   .photo {
       max-width: 100%;
@@ -305,6 +318,9 @@ body, html {
  }
   .image-card {
       max-width: 22%;
+ }
+ #image-card-2x2grid {
+  max-width: 45%;
  }
   .gallery-heading {
       top: 17%;
@@ -370,6 +386,7 @@ body, html {
 }
 
 #fullpage {
+  z-index: 10;
   display: none;
   position: fixed;
   top: 50%;
