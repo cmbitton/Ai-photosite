@@ -260,7 +260,7 @@ body, html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
+  gap: 30px;
 }
 .photo {
   width: 90%;
@@ -287,7 +287,7 @@ body, html {
   position: absolute;
   display: none;
   left: 10%;
-  top: 15%;
+  top: 14.2%;
   width: 60px;
   height: 60px;
   z-index: 1;
@@ -319,7 +319,7 @@ body, html {
       max-width: 100%;
  }
   .image-card {
-      max-width: 22%;
+      max-width: 21%;
  }
  #image-card-2x2grid {
   max-width: 45%;
